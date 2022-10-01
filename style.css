@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    width: 375px;
+    height: 776px;
+    background-color: rgb(236, 232, 170);
+}
+
+.main-wrapper {
+    position: relative;
+    width: 375px;
+    height: 776px;
+
+    background: #FFFFFF;
+}
+
+h1 {
+    position: absolute;
+    width: 170.08px;
+    height: 43.34px;
+    left: 36px;
+    top: 56px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+}
+
+.main-text {
+    position: absolute;
+    width: 308.47px;
+    height: 174.27px;
+    left: 36px;
+    top: 107.72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+
+    color: #000000;
+}
+
+.top-right-corner-img {
+    position: absolute;
+    width: 146.32px;
+    height: 146.78px;
+    left: 113.12px;
+    top: 338px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.heading-1 {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 35px;
+    top: 544px;
+}
+
+.heading-2 {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 154.16px;
+    top: 544px;
+}
+
+.heading-3 {
+    position: absolute;
+    width: 69.9px;
+    height: 18.17px;
+    left: 35px;
+    top: 615px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.p-1 {
+    position: absolute;
+    width: 86px;
+    height: 18px;
+    left: 35px;
+    top: 563px;
+}
+
+.p-2 {
+    position: absolute;
+    width: 86.89px;
+    height: 18.5px;
+    left: 154.33px;
+    top: 562.46px;
+}
+
+.p-3 {
+    position: absolute;
+    width: 76px;
+    height: 18px;
+    left: 35px;
+    top: 634px;
+}
+
+/*hide the bottom left corner image */
+/* .bottom-left-corner-img {
+    display: none;
+} */
+
+/* table */
+@media (min-width: 830px) {
+    body {
+        position: relative;
+        width: 834px;
+        height: 633px;
+        background-color: #ffffff;
+    }
+
+    .main-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+    }
+
+    h1 {
+        position: absolute;
+        width: 211.4px;
+        height: 53.86px;
+        left: 72px;
+        top: 56px;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+
+    .main-text {
+        position: absolute;
+        width: 383.41px;
+        height: 216.61px;
+        left: 72px;
+        top: 120.29px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+
+
+        color: #000000;
+    }
+
+    .top-right-corner-img {
+        position: absolute;
+        width: 181.86px;
+        height: 182.44px;
+        left: 565.45px;
+        top: 134.19px;
+        background: url(https://s3-alpha-sig.figma.com/img/700f/a5d1/2fd4df2196094d27a25913b781083a43?Expires=1665360000&Signature=e~99KaSbbYNDWOYiGxbDBdkHHFfqTSAIHXkIszSb5VpbW6DQdoJ7pufwfDcQPcC3T67Ii7ym4so8JiuZXXRnlv5h0w0icZ1zdiVEBkWhbGuhOK2DspJVO0fA-6vFddjP7lymrBBrVJQO8Gb4IK9x36rTo1Lmq2s8uqfkHYns9W5HsmZHAsEgEdKNrJZMLfvH4ethZ9Z7D50ZwOEeXj23Ml~t88u9SX6sbHmNobtO9WWpD4nQD4e5puwwVSWUNXrModKXViINc9tI2rCT~rpNyXTpSUKDUXpLIh5iZxBQfkjSXQMkhHZnIm2hWfPQhc2BnfKEWMgZR2WBCYopKLT93A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    }
+
+    h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .heading-1 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 72px;
+        top: 407px;
+    }
+
+    .heading-2 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 213.9px;
+        top: 407px;
+    }
+
+    .heading-3 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 354.63px;
+        top: 407px;
+    }
+
+    /* paragraphs */
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .p-1 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 72px;
+        top: 430.17px;
+    }
+
+    .p-2 {
+        position: absolute;
+        width: 108px;
+        height: 23px;
+        left: 214.1px;
+        top: 429.95px;
+    }
+
+    .p-3 {
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 354.63px;
+        top: 430.17px;
+    }
+
+    /*hide the bottom left corner image */
+    /* .bottom-left-corner-img {
+        display: none;
+    } */
+
+
+}
+
+/* Desktop */
+@media (min-width:1400px) {
+    body {
+        position: relative;
+        width: 1440px;
+        height: 1046px;
+
+        background: #ffffff;
+    }
+
+    .main-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+    }
+
+    h1 {
+        position: absolute;
+        width: 365px;
+        height: 93px;
+        left: 124px;
+        top: 91px;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101.38%;
+        /* or 56px */
+
+
+        color: #000000;
+    }
+
+    .main-text {
+        position: absolute;
+        width: 662px;
+        height: 374px;
+        left: 124px;
+        top: 202px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .top-right-corner-img {
+        position: absolute;
+        width: 314px;
+        height: 315px;
+        left: 976px;
+        top: 226px;
+        background: url(https://s3-alpha-sig.figma.com/img/700f/a5d1/2fd4df2196094d27a25913b781083a43?Expires=1665360000&Signature=e~99KaSbbYNDWOYiGxbDBdkHHFfqTSAIHXkIszSb5VpbW6DQdoJ7pufwfDcQPcC3T67Ii7ym4so8JiuZXXRnlv5h0w0icZ1zdiVEBkWhbGuhOK2DspJVO0fA-6vFddjP7lymrBBrVJQO8Gb4IK9x36rTo1Lmq2s8uqfkHYns9W5HsmZHAsEgEdKNrJZMLfvH4ethZ9Z7D50ZwOEeXj23Ml~t88u9SX6sbHmNobtO9WWpD4nQD4e5puwwVSWUNXrModKXViINc9tI2rCT~rpNyXTpSUKDUXpLIh5iZxBQfkjSXQMkhHZnIm2hWfPQhc2BnfKEWMgZR2WBCYopKLT93A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    }
+
+    h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        /* or 32px */
+
+
+        color: #000000;
+    }
+
+    .heading-1 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 488px;
+        top: 740px;
+    }
+
+    .heading-2 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 733px;
+        top: 740px;
+    }
+
+    .heading-3 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 976px;
+        top: 740px;
+    }
+
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+
+
+        color: #000000;
+    }
+
+    .p-1 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 488px;
+        top: 780px;
+    }
+
+    .p-2 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 733px;
+        top: 780px;
+    }
+
+    .p-3 {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 976px;
+        top: 780px;
+    }
+
+    .bottom-left-corner-img{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        left: 124px;
+        top: 670px;
+        background: url(https://s3-alpha-sig.figma.com/img/f1e5/6721/d2a2f70911544c4cdaee91da5d81cd91?Expires=1665360000&Signature=ZBWJuPJQqDWxOsmdO5oCDjTVoCzFCR1CgYxJ-QQLYD1QzB-Gx-W8Zo-uBc9TtsGfeActh8PPSF35ONr6atmSXCDhEF4ySjMblUnyL9xMCK~aJM6ixzPrGypDIZ-tnsIzSXw7c4CBghGW438UhD0Vh98v~MMF6M7SKvc8C6HxyEARUeEj3itUWAa1EMb-5CYLw8sk8ma0omdmhCv7a7dXM9DyMYM1bjoqKXaZMTnIIayqo-gnmYiM4e-o~HXSYT~oArFuhcCgt~Qk521YW1uos9XKU~M0av5oGg68NziWXH1z46McbZvdZs0fragQctgqq6PNkVXt2dWE9Ycvofq8nw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+
+    }
+
+
+}
