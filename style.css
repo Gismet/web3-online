@@ -7,16 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Slab:wght@100&display=swap');
 
 body {
-    width: 375px;
-    height: 776px;
-    background-color: rgb(236, 232, 170);
+    background-color: #E5E5E5;
 }
 
 .main-wrapper {
     position: relative;
     width: 375px;
     height: 776px;
-
     background: #FFFFFF;
 }
 
@@ -127,9 +124,9 @@ p {
 }
 
 /*hide the bottom left corner image */
-/* .bottom-left-corner-img {
+.bottom-left-corner-img {
     display: none;
-} */
+}
 
 /* table */
 @media (min-width: 830px) {
@@ -256,10 +253,9 @@ p {
     }
 
     /*hide the bottom left corner image */
-    /* .bottom-left-corner-img {
+    .bottom-left-corner-img {
         display: none;
-    } */
-
+    }
 
 }
 
@@ -394,14 +390,14 @@ p {
         top: 780px;
     }
 
-    .bottom-left-corner-img{
+    .bottom-left-corner-img {
         position: absolute;
         width: 232px;
         height: 203px;
         left: 124px;
         top: 670px;
         background: url(https://s3-alpha-sig.figma.com/img/f1e5/6721/d2a2f70911544c4cdaee91da5d81cd91?Expires=1665360000&Signature=ZBWJuPJQqDWxOsmdO5oCDjTVoCzFCR1CgYxJ-QQLYD1QzB-Gx-W8Zo-uBc9TtsGfeActh8PPSF35ONr6atmSXCDhEF4ySjMblUnyL9xMCK~aJM6ixzPrGypDIZ-tnsIzSXw7c4CBghGW438UhD0Vh98v~MMF6M7SKvc8C6HxyEARUeEj3itUWAa1EMb-5CYLw8sk8ma0omdmhCv7a7dXM9DyMYM1bjoqKXaZMTnIIayqo-gnmYiM4e-o~HXSYT~oArFuhcCgt~Qk521YW1uos9XKU~M0av5oGg68NziWXH1z46McbZvdZs0fragQctgqq6PNkVXt2dWE9Ycvofq8nw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-
+        display: block;
     }
 
 
